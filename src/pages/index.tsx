@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 				<div className='w-full min-w-screen min-h-screen bg-yellow-500 flex items-center justify-center px-5 py-5'>
 					<div className='text-yellow-100'>
 						<h1 className='text-3xl text-center mb-3 font-extralight'>Dan D</h1>
-						<div className='text-6xl text-center flex w-full items-center justify-center'>
+						<div className='text-6xl text-center flex w-full items-center justify-center flex-col md:flex-row gap-4'>
 							<div className='text-2xl mr-1 font-extralight'>in</div>
 							<div className='mx-1 p-2 bg-white text-yellow-500 rounded-lg'>
 								<div className='font-mono leading-none' x-text='days'>
